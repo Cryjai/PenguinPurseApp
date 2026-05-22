@@ -5,7 +5,8 @@
 - 📴 100% offline — no login, no cloud sync, no tracking
 - 🧠 Local-first with Room as the single source of truth
 - 🐧 Penguin-themed UI designed for low-friction daily use
-
+## Video Walkthough
+[![Penguin Purse Showcase](https://img.youtube.com/vi/3YuYaZSO5UHhlu7l/0.jpg)](https://youtu.be/IAbBErOHUks?si=3YuYaZSO5UHhlu7l)
 ## Download
 
 ### Latest APK
