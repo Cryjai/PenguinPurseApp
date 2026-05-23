@@ -1,0 +1,3 @@
+Penguin Purse is a local expense and income tracker that works entirely offline. No account creation, no internet dependency, no analytics, ads, or hidden syncing. Record transactions with date, amount, category, and notes using preset or custom categories.
+
+Features include fast record workflow, type/category filters, custom date input, and emoji-friendly categories.
