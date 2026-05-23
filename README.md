@@ -111,11 +111,11 @@ Design principles:
 ### Android Studio
 1. Open this folder in **Android Studio**
 2. Let Gradle sync
-3. Select the `debug` build variant for `app`
+3. Select the `release` build variant for `app`
 4. Build the APK at:
 
 ```text
-app/build/outputs/apk/debug/app-debug.apk
+app/build/outputs/apk/release/app-release-unsigned.apk
 ```
 
 ### Command line
@@ -123,7 +123,7 @@ app/build/outputs/apk/debug/app-debug.apk
 If Android SDK is installed locally:
 
 ```bash
-./gradlew assembleDebug
+./gradlew assembleRelease
 ```
 
 The debug APK will be generated in the same `app/build/outputs/apk/debug/` directory.
