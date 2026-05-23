@@ -1,0 +1,32 @@
+Categories:
+  - Money
+
+License: GPL-3.0-only
+
+AutoName: Penguin Purse
+
+Summary: Private, offline-first personal finance tracker
+Description: |-
+  Penguin Purse is a local expense and income tracker that works entirely
+  offline. No account creation, no internet dependency, no analytics, ads,
+  or hidden syncing. Record transactions with date, amount, category, and
+  notes using preset or custom categories.
+
+  Features include fast record workflow, type/category filters, custom
+  date input, and emoji-friendly categories.
+
+RepoType: git
+Repo: https://github.com/Cryjai/PenguinPurseApp
+
+Builds:
+  - versionName: '1.2'
+    versionCode: 1
+    commit: main
+    subdir: app
+    gradle:
+      - release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.2'
+CurrentVersionCode: 1
