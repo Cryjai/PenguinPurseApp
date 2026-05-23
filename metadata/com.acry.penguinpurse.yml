@@ -5,6 +5,9 @@ License: GPL-3.0-only
 
 AutoName: Penguin Purse
 
+SourceCode: https://github.com/Cryjai/PenguinPurseApp
+IssueTracker: https://github.com/Cryjai/PenguinPurseApp/issues
+
 Summary: Private, offline-first personal finance tracker
 Description: |-
   Penguin Purse is a local expense and income tracker that works entirely
@@ -16,12 +19,12 @@ Description: |-
   date input, and emoji-friendly categories.
 
 RepoType: git
-Repo: https://github.com/Cryjai/PenguinPurseApp
+Repo: https://github.com/Cryjai/PenguinPurseApp.git
 
 Builds:
   - versionName: '1.2'
-    versionCode: 1
-    commit: main
+    versionCode: 2
+    commit: dedf6cbd643913cb4755baed084b6cb6dc3b6901
     subdir: app
     gradle:
       - release
@@ -29,4 +32,4 @@ Builds:
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: '1.2'
-CurrentVersionCode: 1
+CurrentVersionCode: 2
